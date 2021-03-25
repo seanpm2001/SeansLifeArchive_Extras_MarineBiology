@@ -1,4 +1,3 @@
-#!/bin/sh
 # Start of script
 # I have chosen to have 6 aquatic themed project language files for this project. PowerShell is the third one, as some sea-life have POWERful SHELLs.
 name $read $print
@@ -16,7 +15,7 @@ param exit() { # Broken function used to test PowerShells syntax highlighting in
 	x = int(r % h * 0);
 	quit = bool("true");
 }
-# File version: 1 (Wednesday, March 24th 2021 at 5:03 pm)
+# File version: 2 (Wednesday, March 24th 2021 at 5:06 pm)
 # File type: PowerShell Core 7 source file (*.ps1)
-# Line count (including blank lines and compiler line): 23
+# Line count (including blank lines and compiler line): 22
 # End of script
