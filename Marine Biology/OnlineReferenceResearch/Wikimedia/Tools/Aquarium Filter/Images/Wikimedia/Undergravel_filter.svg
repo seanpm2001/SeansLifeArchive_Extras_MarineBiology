@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1190" height="625" viewBox="0 0 1190 625">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#339;stroke:#000;}
+	.st2{fill:#0071BC;stroke:#E6E6E6;stroke-width:0.5;}
+	.st3{fill:#fff;}
+	.st4{fill:#800000;stroke:#000;}
+	.st5{fill:#BBE0E3;}
+	.st6{fill:#5A997A;stroke:#000;}
+	.st7{fill:none;stroke:#000;stroke-width:3;}
+	.st8{fill:none;stroke:#000;stroke-width:3;stroke-dasharray:12,12;}
+	.st9{filter:url(#AI_Turbulence_3);}
+	.st10{fill:#339;}
+	.st11{filter:url(#AI_Turbulence_5);}
+	.st12{fill:#666;}
+	.st13{fill:none;stroke:#000;stroke-width:2;}
+	.st14{fill:#F2F2F2;stroke:#000;}
+	.st15{fill:#BBE0E3;stroke:#000;}
+	.st16{fill:none;stroke:#666;stroke-width:2;}
+	.st17{fill:#969696;stroke:#000;}
+	.st18{fill:none;stroke:#000;stroke-width:2;stroke-linecap:round;}
+	.st19{font-family:Liberation Sans,Arial;}
+	.st20{font-size:18px;}
+</style>
+<filter  width="100%" height="100%" y="0%" x="0%" id="AI_Turbulence_5" filterUnits="objectBoundingBox">
+	<feTurbulence  type="fractalNoise" result="turb" baseFrequency="0.4" numOctaves="4" stitchTiles="noStitch"></feTurbulence>
+	<feComposite  in="turb" in2="SourceAlpha" operator="in"></feComposite>
+</filter>
+<filter  width="100%" height="100%" y="0%" x="0%" id="AI_Turbulence_3" filterUnits="objectBoundingBox">
+	<feTurbulence  type="turbulence" result="turb" baseFrequency="0.05" numOctaves="8" stitchTiles="noStitch"></feTurbulence>
+	<feComposite  in="turb" in2="SourceAlpha" operator="in"></feComposite>
+</filter>
+<symbol  id="Arrow_30_1_" viewBox="-33.8 -22.8 56.7 41.1">
+	<polygon class="st0" points="-33.8,-7.7 22.9,-7.7 22.9,7.7 -22.9,7.7 	"/>
+	<g>
+		<polygon class="st1" points="-12.5,-1 -9.7,-1 -14.5,16.4 -19.2,-1 -16.4,-1 -16.4,-22.3 -12.5,-22.3 		"/>
+	</g>
+</symbol>
+<symbol  id="bubble" viewBox="-2.8 -2.8 5.7 5.7">
+	<path class="st2" d="M2.6,0c0-1.4-1.2-2.6-2.6-2.6S-2.6-1.4-2.6,0S-1.4,2.6,0,2.6S2.6,1.4,2.6,0z"/>
+	<path class="st3" d="M1.5,0.9c0-0.4-0.3-0.8-0.8-0.8S0,0.5,0,0.9s0.3,0.8,0.8,0.8S1.5,1.3,1.5,0.9z"/>
+</symbol>
+<symbol  id="red_arrow" viewBox="-5.4 -20.6 10.7 41.1">
+	<polygon class="st4" points="-1.9,-1.3 -4.7,-1.3 0,-18.6 4.7,-1.3 1.9,-1.3 1.9,20.1 -1.9,20.1 	"/>
+</symbol>
+<g id="diagram">
+	<rect x="104.8" y="89.3" class="st5" width="1010" height="458"/>
+	<rect x="24.3" y="486.7" class="st6" width="60" height="100"/>
+	<g>
+		<g>
+			<line class="st7" x1="104.8" y1="528.7" x2="110.8" y2="528.7"/>
+			<line class="st8" x1="122.8" y1="528.7" x2="1102.7" y2="528.7"/>
+			<line class="st7" x1="1108.8" y1="528.7" x2="1114.8" y2="528.7"/>
+		</g>
+	</g>
+	<g id="gravel" class="st9">
+		<rect x="104.8" y="500.7" class="st10" width="1010" height="25"/>
+	</g>
+	<g id="gravel_1_" class="st11">
+		<rect x="104.8" y="500.4" class="st10" width="1010" height="25"/>
+	</g>
+	<g>
+		<g>
+			<polygon class="st12" points="54.3,431.8 47.8,447.7 54.3,443.9 60.8,447.7 			"/>
+		</g>
+	</g>
+	<polyline class="st13" points="1114.8,67.3 1114.8,547.3 104.8,547.3 104.8,67.3 	"/>
+	<path class="st14" d="M138,109c-13.3,0-24,10.1-24,22.5v408h21.3v-408c0-1.8,1.2-3.2,2.7-3.2h20.9V109H138z"/>
+	<rect x="119.5" y="497.4" class="st15" width="10" height="30.1"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 129.4551 489.6973)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 130.716 478.4095)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 119.128 480.3112)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 130.9857 461.5783)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 120.8987 456.5349)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 127.8842 450.3506)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 129.6844 443.4458)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 127.9453 436.5411)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 128.6647 416.8475)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 122.5504 401.477)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 119.9686 429.7761)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 130.3337 137.5737)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 119.3881 124.4417)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 135.0173 124.6219)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 140.4308 118.4324)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 153.7417 122.9702)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 162.4476 112.1172)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 130.3337 117.2807)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 148.3281 114.699)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 174.3259 125.3719)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 163.5293 106.3033)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 186.8932 107.2334)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" id="XMLID_17_" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 177.1458 107.2334)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 175.5847 133.5473)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" id="XMLID_16_" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 168.9429 111.8672)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 165.0293 125.552)"/>
+	
+		<use xlink:href="#bubble"  width="5.7" height="5.7" x="-2.8" y="-2.8" transform="matrix(1 0 0 -1 186.8626 126.5235)"/>
+	<polyline class="st16" points="54.3,486.7 54.3,48.5 124.1,48.5 124.5,497.4 	"/>
+	
+		<use xlink:href="#Arrow_30_1_"  width="56.7" height="41.1" id="XMLID_2_" x="-33.8" y="-22.8" transform="matrix(1 0 0 -1 138.552 196.602)"/>
+	
+		<use xlink:href="#Arrow_30_1_"  width="56.7" height="41.1" id="XMLID_3_" x="-33.8" y="-22.8" transform="matrix(1 0 0 -1 138.552 367.7631)"/>
+	<rect x="1073.9" y="147.3" class="st14" width="21.3" height="392.2"/>
+	<polygon class="st17" points="1090.2,159.5 1078.9,159.5 1073.9,133 1095.2,133 	"/>
+	<rect x="1024.3" y="83.3" class="st17" width="79.9" height="49.6"/>
+	<rect x="1004.4" y="96.3" class="st17" width="19.9" height="20.5"/>
+	
+		<use xlink:href="#Arrow_30_1_"  width="56.7" height="41.1" id="XMLID_4_" x="-33.8" y="-22.8" transform="matrix(4.489659e-011 1 1 -4.489659e-011 187.3167 132.5116)"/>
+	
+		<use xlink:href="#Arrow_30_1_"  width="56.7" height="41.1" id="XMLID_5_" x="-33.8" y="-22.8" transform="matrix(4.489659e-011 -1 -1 -4.489659e-011 166.4596 522.1442)"/>
+	<g id="Arrow_30">
+		<polygon class="st0" points="218.2,434.7 161.6,434.7 161.6,450 207.3,450 		"/>
+		
+			<use xlink:href="#red_arrow"  width="10.7" height="41.1" x="-5.4" y="-20.6" transform="matrix(1 0 0 -1 198.8701 440.0972)"/>
+		
+			<use xlink:href="#red_arrow"  width="10.7" height="41.1" x="-5.4" y="-20.6" transform="matrix(1 0 0 -1 281.5169 478.4095)"/>
+		
+			<use xlink:href="#red_arrow"  width="10.7" height="41.1" x="-5.4" y="-20.6" transform="matrix(1 0 0 -1 364.1638 440.0972)"/>
+		
+			<use xlink:href="#red_arrow"  width="10.7" height="41.1" x="-5.4" y="-20.6" transform="matrix(1 0 0 -1 446.8107 478.4095)"/>
+		
+			<use xlink:href="#red_arrow"  width="10.7" height="41.1" x="-5.4" y="-20.6" transform="matrix(1 0 0 -1 529.4575 440.0972)"/>
+		
+			<use xlink:href="#red_arrow"  width="10.7" height="41.1" x="-5.4" y="-20.6" transform="matrix(1 0 0 -1 858.7925 440.0972)"/>
+		
+			<use xlink:href="#red_arrow"  width="10.7" height="41.1" x="-5.4" y="-20.6" transform="matrix(1 0 0 -1 1029.6619 478.4095)"/>
+	</g>
+	
+		<use xlink:href="#Arrow_30_1_"  width="56.7" height="41.1" id="XMLID_6_" x="-33.8" y="-22.8" transform="matrix(4.489659e-011 -1 -1 -4.489659e-011 329.3483 522.1442)"/>
+	
+		<use xlink:href="#Arrow_30_1_"  width="56.7" height="41.1" id="XMLID_8_" x="-33.8" y="-22.8" transform="matrix(4.489659e-011 1 1 -4.489659e-011 810.3352 552.7213)"/>
+	
+		<use xlink:href="#Arrow_30_1_"  width="56.7" height="41.1" id="XMLID_7_" x="-33.8" y="-22.8" transform="matrix(4.489659e-011 1 1 -4.489659e-011 1022.5966 552.7213)"/>
+	
+		<use xlink:href="#Arrow_30_1_"  width="56.7" height="41.1" id="XMLID_9_" x="-33.8" y="-22.8" transform="matrix(1 0 0 -1 1099.3969 456.4824)"/>
+	
+		<use xlink:href="#Arrow_30_1_"  width="56.7" height="41.1" id="XMLID_10_" x="-33.8" y="-22.8" transform="matrix(1 0 0 -1 1099.3969 374.0132)"/>
+	
+		<use xlink:href="#Arrow_30_1_"  width="56.7" height="41.1" id="XMLID_11_" x="-33.8" y="-22.8" transform="matrix(1 0 0 -1 1099.3969 309.8763)"/>
+	
+		<use xlink:href="#Arrow_30_1_"  width="56.7" height="41.1" id="XMLID_12_" x="-33.8" y="-22.8" transform="matrix(1 0 0 -1 1099.3969 245.7392)"/>
+	
+		<use xlink:href="#Arrow_30_1_"  width="56.7" height="41.1" id="XMLID_13_" x="-33.8" y="-22.8" transform="matrix(1 0 0 -1 1099.3969 186.1328)"/>
+	
+		<use xlink:href="#Arrow_30_1_"  width="56.7" height="41.1" id="XMLID_14_" x="-33.8" y="-22.8" transform="matrix(4.489659e-011 -1 -1 -4.489659e-011 964.337 92.8408)"/>
+	<g>
+		<g>
+			<line class="st13" x1="930.2" y1="521.7" x2="930.2" y2="575.8"/>
+			<g>
+				<polygon points="930.2,513.2 925.3,525.2 930.2,522.3 935,525.2 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st13" x1="570.2" y1="536.1" x2="633.8" y2="586.4"/>
+			<g>
+				<polygon points="563.5,530.8 569.9,542 570.7,536.5 575.9,534.4 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st18" x1="1064.2" y1="50.8" x2="1064.2" y2="74.9"/>
+			<g>
+				<polygon points="1064.2,83.3 1059.4,71.4 1064.2,74.2 1069.1,71.4 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="text">
+	<text transform="matrix(1 0 0 1 43 531)">
+	<tspan x="0" y="0" class="st19 st20">Air</tspan>
+	<tspan x="-12.5" y="21.6" class="st19 st20">Pump</tspan>
+	</text>
+	<text transform="matrix(1 0 0 1 882 591)" class="st19 st20">Gravel layer</text>
+	<text transform="matrix(1 0 0 1 1132 327)">
+	<tspan x="0" y="0" class="st19 st20">Uplift</tspan>
+	<tspan x="3" y="21.6" class="st19 st20">tube</tspan>
+	</text>
+	<text transform="matrix(1 0 0 1 650 569)">
+	<tspan x="0" y="0" class="st19 st20">Perforated</tspan>
+	<tspan x="-8.5" y="21.6" class="st19 st20">under-gravel</tspan>
+	<tspan x="22.5" y="43.2" class="st19 st20">plate</tspan>
+	</text>
+	<g>
+		<g>
+			<line class="st18" x1="1132.5" y1="332.2" x2="1103.7" y2="332.2"/>
+			<g>
+				<polygon points="1095.2,332.2 1107.2,327.3 1104.3,332.2 1107.2,337.1 				"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 1015 23)">
+	<tspan x="0" y="0" class="st19 st20">Water pump</tspan>
+	<tspan x="-4" y="21.6" class="st19 st20">(power head)</tspan>
+	</text>
+</g>
+</svg>
