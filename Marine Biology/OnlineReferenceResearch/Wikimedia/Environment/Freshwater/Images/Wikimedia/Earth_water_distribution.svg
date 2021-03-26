@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-302 -502 704 904">
+ <title>Visualisation of water distribution on Earth</title>
+ <desc>Visualisation of the distribution (by volume) of water on Earth, by CMG Lee. Each tiny cube (such as the one representing biological water) corresponds to approximately 1000 cubic km of water, with a mass of approximately 1 trillion tonnes (200000 times that of the Great Pyramid of Giza or 5 times that of Lake Kariba, arguably the heaviest man-made object). The entire block comprises 1 million tiny cubes. Data is from http://ga.water.usgs.gov/edu/waterdistribution.html .</desc>
+ <defs>
+  <path id="grid_x" d="M 0 0 L 400 -200"/>
+  <path id="grid_y" d="M 0 0 L -300 -300"/>
+  <path id="grid_z" d="M 0 0 V 400"/>
+  <g id="grid_xy">
+   <use xlink:href="#grid_x"/>
+   <use xlink:href="#grid_y"/>
+  </g>
+  <g id="grid_xy_10">
+   <use xlink:href="#grid_xy" transform="translate(0,4)"/>
+   <use xlink:href="#grid_xy" transform="translate(0,8)"/>
+   <use xlink:href="#grid_xy" transform="translate(0,12)"/>
+   <use xlink:href="#grid_xy" transform="translate(0,16)"/>
+   <use xlink:href="#grid_xy" transform="translate(0,20)"/>
+   <use xlink:href="#grid_xy" transform="translate(0,24)"/>
+   <use xlink:href="#grid_xy" transform="translate(0,28)"/>
+   <use xlink:href="#grid_xy" transform="translate(0,32)"/>
+   <use xlink:href="#grid_xy" transform="translate(0,36)"/>
+   <use xlink:href="#grid_xy" transform="translate(0,40)" stroke-opacity="0.4"/>
+  </g>
+  <g id="grid_xy_100">
+   <use xlink:href="#grid_xy"/>
+   <use xlink:href="#grid_xy_10"/>
+   <use xlink:href="#grid_xy_10" transform="translate(0,40)"/>
+   <use xlink:href="#grid_xy_10" transform="translate(0,80)"/>
+   <use xlink:href="#grid_xy_10" transform="translate(0,120)"/>
+   <use xlink:href="#grid_xy_10" transform="translate(0,160)"/>
+   <use xlink:href="#grid_xy_10" transform="translate(0,200)"/>
+   <use xlink:href="#grid_xy_10" transform="translate(0,240)"/>
+   <use xlink:href="#grid_xy_10" transform="translate(0,280)"/>
+   <use xlink:href="#grid_xy_10" transform="translate(0,320)"/>
+   <use xlink:href="#grid_xy_10" transform="translate(0,360)"/>
+  </g>
+  <g id="grid_xz">
+   <use xlink:href="#grid_x"/>
+   <use xlink:href="#grid_z"/>
+  </g>
+  <g id="grid_xz_10">
+   <use xlink:href="#grid_xz" transform="translate(-3,-3)"/>
+   <use xlink:href="#grid_xz" transform="translate(-6,-6)"/>
+   <use xlink:href="#grid_xz" transform="translate(-9,-9)"/>
+   <use xlink:href="#grid_xz" transform="translate(-12,-12)"/>
+   <use xlink:href="#grid_xz" transform="translate(-15,-15)"/>
+   <use xlink:href="#grid_xz" transform="translate(-18,-18)"/>
+   <use xlink:href="#grid_xz" transform="translate(-21,-21)"/>
+   <use xlink:href="#grid_xz" transform="translate(-24,-24)"/>
+   <use xlink:href="#grid_xz" transform="translate(-27,-27)"/>
+   <use xlink:href="#grid_xz" transform="translate(-30,-30)" stroke-opacity="0.4"/>
+  </g>
+  <g id="grid_xz_100">
+   <use xlink:href="#grid_xz"/>
+   <use xlink:href="#grid_xz_10"/>
+   <use xlink:href="#grid_xz_10" transform="translate(-30,-30)"/>
+   <use xlink:href="#grid_xz_10" transform="translate(-60,-60)"/>
+   <use xlink:href="#grid_xz_10" transform="translate(-90,-90)"/>
+   <use xlink:href="#grid_xz_10" transform="translate(-120,-120)"/>
+   <use xlink:href="#grid_xz_10" transform="translate(-150,-150)"/>
+   <use xlink:href="#grid_xz_10" transform="translate(-180,-180)"/>
+   <use xlink:href="#grid_xz_10" transform="translate(-210,-210)"/>
+   <use xlink:href="#grid_xz_10" transform="translate(-240,-240)"/>
+   <use xlink:href="#grid_xz_10" transform="translate(-270,-270)"/>
+  </g>
+  <g id="grid_yz">
+   <use xlink:href="#grid_y"/>
+   <use xlink:href="#grid_z"/>
+  </g>
+  <g id="grid_yz_10">
+   <use xlink:href="#grid_yz" transform="translate(4,-2)"/>
+   <use xlink:href="#grid_yz" transform="translate(8,-4)"/>
+   <use xlink:href="#grid_yz" transform="translate(12,-6)"/>
+   <use xlink:href="#grid_yz" transform="translate(16,-8)"/>
+   <use xlink:href="#grid_yz" transform="translate(20,-10)"/>
+   <use xlink:href="#grid_yz" transform="translate(24,-12)"/>
+   <use xlink:href="#grid_yz" transform="translate(28,-14)"/>
+   <use xlink:href="#grid_yz" transform="translate(32,-16)"/>
+   <use xlink:href="#grid_yz" transform="translate(36,-18)"/>
+   <use xlink:href="#grid_yz" transform="translate(40,-20)" stroke-opacity="0.4"/>
+  </g>
+  <g id="grid_yz_100">
+   <use xlink:href="#grid_yz"/>
+   <use xlink:href="#grid_yz_10"/>
+   <use xlink:href="#grid_yz_10" transform="translate(40,-20)"/>
+   <use xlink:href="#grid_yz_10" transform="translate(80,-40)"/>
+   <use xlink:href="#grid_yz_10" transform="translate(120,-60)"/>
+   <use xlink:href="#grid_yz_10" transform="translate(160,-80)"/>
+   <use xlink:href="#grid_yz_10" transform="translate(200,-100)"/>
+   <use xlink:href="#grid_yz_10" transform="translate(240,-120)"/>
+   <use xlink:href="#grid_yz_10" transform="translate(280,-140)"/>
+   <use xlink:href="#grid_yz_10" transform="translate(320,-160)"/>
+   <use xlink:href="#grid_yz_10" transform="translate(360,-180)"/>
+  </g>
+  <g id="grid" stroke="#000000" stroke-opacity="0.2">
+   <path d="M 0 0 L -300 -300 V 100 L 0 400 Z" stroke="none" fill="#000000" fill-opacity="0.1"/>
+   <path d="M 0 0 V 400 L 400 200 V -200 Z" stroke="none" fill="#000000" fill-opacity="0.2"/>
+   <use xlink:href="#grid_xy_100"/>
+   <use xlink:href="#grid_xz_100"/>
+   <use xlink:href="#grid_yz_100"/>
+  </g>
+ </defs>
+ <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+ <g font-family="Helvetica,Arial,sans-serif" font-size="24" text-anchor="middle" stroke="#000000" stroke-linejoin="round" fill="#000000">
+  <g id="ocean">
+   <path d="M -300 -300 v 400 l 300 300 l 400 -200 v -400 l -300 -300 z" fill="#66cccc"/>
+   <path d="M 30 265 V 210"/>
+   <text transform="translate(30,280)" x="0" y="0" stroke="none"><tspan font-weight="bold">Oceans, seas &amp; bays</tspan><tspan x="0" dy="1em">965 000 ppm (96.5%)</tspan><tspan x="0" dy="1em">1 338 000 000 km&#179;</tspan></text>
+  </g>
+  <g id="ice_cap_1">
+   <path d="M -300 -296 v 8 l 300 300 l 212 -106 v -4 l 188 -94 v -8 l -300 -300 z" fill="#cccccc"/>
+  </g>
+  <g id="groundwater_fresh">
+   <path d="M 100 -500 l -400 200 v 4 l 228 228 v -4 l 400 -200 z" fill="#99ffcc"/>
+   <path d="M 20 -350 V -300"/>
+   <text transform="translate(65,-400)" x="0" y="0" stroke="none"><tspan font-weight="bold">Fresh groundwater</tspan><tspan x="0" dy="1em">7 600 ppm (0.76%)</tspan><tspan x="0" dy="1em">10 530 000 km&#179;</tspan></text>
+  </g>
+  <g id="ice_cap_2">
+   <path d="M 180 -235 V -150"/>
+   <text transform="translate(170,-310)" x="0" y="0" stroke="none"><tspan font-weight="bold">Ice caps, glaciers</tspan><tspan x="0" dy="1em" font-weight="bold">&amp; permanent snow</tspan><tspan x="0" dy="1em">17 400 ppm (1.74%)</tspan><tspan x="0" dy="1em">24 064 000 km&#179;</tspan></text>
+  </g>
+  <g id="groundwater_saline">
+   <path d="M -300 -288 v 4 l 282 282 v -4 z" fill="#66ff99"/>
+   <path d="M -150 -250 V -135"/>
+   <text transform="translate(-140,-300)" x="0" y="0" stroke="none"><tspan font-weight="bold">Saline groundwater</tspan><tspan x="0" dy="1em">9 400 ppm (0.94%)</tspan><tspan x="0" dy="1em">12 870 000 km&#179;</tspan></text>
+  </g>
+  <g id="lake_saline">
+   <path d="M -30 -14 v 4 l 30 30 l 24 -12 v -4 l -24 12 z" fill="#6666cc"/>
+   <path d="M 0 125 V 17"/>
+   <text transform="translate(0,140)" x="0" y="0" stroke="none"><tspan font-weight="bold">Saline lakes</tspan><tspan x="0" dy="1em">60 ppm (0.006%)</tspan><tspan x="0" dy="1em">85 400 km&#179;</tspan></text>
+  </g>
+  <g id="biological">
+   <path d="M -36 -36 v 4 l 3 3 v -4 l 4 -2 l -3 -3 z" fill="#ff0000"/>
+   <path d="M -32 -150 V -35"/>
+   <text transform="translate(-20,-200)" x="0" y="0" stroke="none"><tspan font-weight="bold">Biological water</tspan><tspan x="0" dy="1em">1 ppm (0.0001%)</tspan><tspan x="0" dy="1em">1 120 km&#179;</tspan></text>
+  </g>
+  <g id="atmosphere">
+   <path d="M -69 -69 v 4 l 30 30 v -4 l 4 -2 l -30 -30 z" fill="#66ccff"/>
+   <path d="M -110 -52 H -52"/>
+   <text transform="translate(-110,-80)" x="0" y="0" text-anchor="end" stroke="none"><tspan font-weight="bold">Atmosphere</tspan><tspan x="0" dy="1em">10 ppm (0.001%)</tspan><tspan x="0" dy="1em">12 900 km&#179;</tspan></text>
+  </g>
+  <g id="river">
+   <path d="M -6 -6 v 4 l 6 6 l 4 -2 v -4 l -6 -6 z" fill="#0000ff"/>
+   <path d="M -110 70 H -45 V 0 H 0" fill="none"/>
+   <text transform="translate(-110,80)" x="0" y="0" text-anchor="end" stroke="none"><tspan font-weight="bold">Rivers</tspan><tspan x="0" dy="1em">2 ppm (0.0002%)</tspan><tspan x="0" dy="1em">2 120 km&#179;</tspan></text>
+  </g>
+  <g id="swamp">
+   <path d="M -30 -30 v 4 l 24 24 v -4 l 4 -2 l -24 -24 z" fill="#009900"/>
+   <path d="M -110 -15 H -15"/>
+   <text transform="translate(-110,0)" x="0" y="0" text-anchor="end" stroke="none"><tspan font-weight="bold">Swamp water</tspan><tspan x="0" dy="1em">8 ppm (0.0008%)</tspan><tspan x="0" dy="1em">11 470 km&#179;</tspan></text>
+  </g>
+  <g id="ground_ice">
+   <path d="M 6 -48 l 30 30 v 4 l 88 -44 v -4 l -30 -30 z" fill="#996666"/>
+   <path d="M 200 -55 H 60"/>
+   <text transform="translate(200,-70)" x="0" y="0" text-anchor="start" stroke="none"><tspan font-weight="bold">Ground ice</tspan><tspan x="0" dy="1em" font-weight="bold">&amp; permafrost</tspan><tspan x="0" dy="1em">220 ppm (0.022%)</tspan><tspan x="0" dy="1em">300 000 km&#179;</tspan></text>
+  </g>
+  <g id="soil_moisture">
+   <path d="M 2 -46 l 30 30 v 4 l 4 -2 v -4 l -30 -30 z" fill="#cc9900"/>
+   <path d="M 200 30 H 100 V -32 H 18" fill="none"/>
+   <text transform="translate(200,40)" x="0" y="0" text-anchor="start" stroke="none"><tspan font-weight="bold">Soil Moisture</tspan><tspan x="0" dy="1em">10 ppm (0.001%)</tspan><tspan x="0" dy="1em">16 500 km&#179;</tspan></text>
+  </g>
+  <g id="lake_fresh">
+   <path d="M -26 -32 l 30 30 v 4 l 28 -14 v -4 l -30 -30 z" fill="#9999ff"/>
+   <path d="M 200 115 H 60 V -22 H 5" fill="none"/>
+   <text transform="translate(200,125)" x="0" y="0" text-anchor="start" stroke="none"><tspan font-weight="bold">Fresh lakes</tspan><tspan x="0" dy="1em">70 ppm (0.007%)</tspan><tspan x="0" dy="1em">91 000 km&#179;</tspan></text>
+  </g>
+  <use xlink:href="#grid"/>
+ </g>
+</svg>
